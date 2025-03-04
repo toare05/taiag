@@ -45,6 +45,11 @@
 			path = TaiagUITests;
 			sourceTree = "<group>";
 		};
+		C8DC03FA2D7724E300BE64BD /* Material */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Material;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		C8DC03C42D7724CD00BE64BD = {
 			isa = PBXGroup;
 			children = (
+				C8DC03FA2D7724E300BE64BD /* Material */,
 				C8DC03CF2D7724CD00BE64BD /* Taiag */,
 				C8DC03E02D7724CF00BE64BD /* TaiagTests */,
 				C8DC03EA2D7724CF00BE64BD /* TaiagUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C8DC03CF2D7724CD00BE64BD /* Taiag */,
+				C8DC03FA2D7724E300BE64BD /* Material */,
 			);
 			name = Taiag;
 			packageProductDependencies = (
